@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+<view class='wrapView'>
+  <!-- <view class="loadPage">
+    <view class="loadCon">
+      <i class="icon-loading"></i>
+      <text>拼命加载中</text>
+    </view>
+  </view> -->
+  <map class="allmap" id="allmap"  show-location/>
+    <cover-view class="indexTop">
+    <cover-view class="btn">{{content}}</cover-view>
+     <!-- <button class="btn">发福利啦,点这里领券</button> -->
+    </cover-view>
+    <cover-view class="indexBottom">
+      <cover-view class="iconLeft">
+        <cover-view class="iconBottom"  bindtap="onShow"><cover-image class="iconBottomImg" src="../../image/icon-dt1.png"/></cover-view>
+        <cover-view class="iconBottom"  bindtap="handleLocal"><cover-image class="iconBottomImg" src="../../image/icon-dt3.png"/></cover-view>
+      </cover-view>
+      <cover-view class="btn" id="startBtn" bindtap="clickCode">{{startBtnMsg}}</cover-view>
+      <cover-view class="iconRight">
+        <cover-view class="iconBottom"><cover-image class="iconBottomImg" src="../../image/icon-dt4.png"/></cover-view>
+        <cover-view class="iconBottom"><cover-image class="iconBottomImg" src="../../image/icon-dt2.png"/></cover-view>
+      </cover-view>
+    </cover-view>
+</view>

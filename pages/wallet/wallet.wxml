@@ -1,0 +1,22 @@
+<view class='wrapView'>
+  <view class="loadPage" style="display:{{loadShow}}">
+    <view class="loadCon">
+      <view class="icon-loading"></view>
+      <text>拼命加载中</text>
+    </view>
+  </view>
+  <view class="wallet-top">
+    <text>钱包余额(元)</text>
+    <text class="price">{{wallet}}</text>
+    <navigator>交易明细 </navigator >
+  </view>
+  <view class="wallet-list">
+    <view>
+      <navigator>
+      <view class="icon-chongzhi"></view>
+      <text>充值</text>
+      <view class="arrowR"></view>
+      </navigator >
+    </view>
+  </view>
+</view>

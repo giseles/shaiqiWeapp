@@ -1,0 +1,13 @@
+.dialogBox{
+ height: 40px;
+ line-height: 40px; 
+}
+.dialogBox text{
+margin: 0 20px
+}
+.dialogBox.user icon,.dialogBox.user text{
+  float: left;
+}
+.dialogBox.baby icon,.dialogBox.baby text{
+  float: right;
+}

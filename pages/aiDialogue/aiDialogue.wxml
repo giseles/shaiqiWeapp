@@ -1,0 +1,12 @@
+
+<view class='wrapView'>
+<text>快与小贝对话吧</text>
+    <image src="{{userInfo.avatarUrl}}" class="avatar" />
+<scroll-view wx:for="{{talkList}}" wx:key="*this">
+<view class="dialogBox {{item[0]}}"><icon type="success" size="60" color="{{item}}" /><text>{{item[1]}}</text></view>
+</scroll-view>
+<view>
+      <input type="text" class="weui-input" placeholder="手机号" value="{{talk}}" id="talk" bindinput="bindKeyInput"/>
+      <button class="mainBtn"  bindtap="handleTalk">开始对话</button>
+    </view>
+    </view>

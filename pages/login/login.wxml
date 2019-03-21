@@ -1,0 +1,18 @@
+<view class='wrapView'>
+  <view class='userInfo'>
+    <view class="uerAvatarUrl">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <open-data type="userNickName"></open-data>
+  </view>
+
+  <view class="inputList">
+      <input type="number" class="weui-input" placeholder="手机号" value="{{loginName}}" id="loginName" bindinput="bindKeyInput" />
+      <input type="number" placeholder="验证码" value="{{code}}" class="weui-input" id="code" bindinput="bindKeyInput" />
+      <button id="sendCode" bindtap="sendCode" >获取验证码</button>
+  </view>
+  <view class="btnBox">
+    <button class="mainBtn" bindtap="handleLogin" type="primary">登录</button>
+    <button bindtap="getStorage">读取数据</button>
+  </view>
+</view>

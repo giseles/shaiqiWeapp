@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/wallet/wallet",
+    "pages/login/login",
+    "pages/aiDialogue/aiDialogue"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "晒骑",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "color": "#c7c7c7",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "selectedIconPath": "/image/classic@highlight.png",
+        "iconPath": "/image/classic.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/wallet/wallet",
+        "selectedIconPath": "/image/my@highlight.png",
+        "iconPath": "/image/my.png",
+        "text": "钱包"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "selectedIconPath": "/image/my@highlight.png",
+        "iconPath": "/image/my.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
